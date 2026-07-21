@@ -13,82 +13,82 @@ const products = [
     {
         id: 1,
         name: "Argan Oil",
-        category: "Vegetable Oil",
-        price: 25,
-        rating: 5,
+        category: "Essential Oils",
+        description:
+            "Premium Moroccan argan oil for cosmetic and personal care applications.",
         image: arganOil,
     },
     {
         id: 2,
-        name: "Rose Water",
-        category: "Floral Water",
-        price: 15,
-        rating: 5,
-        image: roseWater,
-    },
-    {
-        id: 3,
         name: "Black Soap",
-        category: "Moroccan Soap",
-        price: 18,
-        rating: 4.8,
+        category: "Body Care",
+        description:
+            "Traditional Moroccan black soap made with natural ingredients.",
         image: blackSoap,
     },
     {
+        id: 3,
+        name: "Face Cream",
+        category: "Skin Care",
+        description:
+            "Moisturizing cream enriched with natural botanical extracts.",
+        image: cream,
+    },
+    {
         id: 4,
-        name: "Rhassoul Clay",
-        category: "Clay",
-        price: 20,
-        rating: 5,
-        image: rhassoulClay,
+        name: "Essential Oils",
+        category: "Essential Oils",
+        description:
+            "Pure essential oils suitable for cosmetics and aromatherapy.",
+        image: essentialOils,
     },
     {
         id: 5,
         name: "Prickly Pear Oil",
-        category: "Vegetable Oil",
-        price: 40,
-        rating: 5,
+        category: "Essential Oils",
+        description:
+            "Luxury prickly pear seed oil rich in antioxidants and vitamins.",
         image: pricklyPearOil,
     },
     {
         id: 6,
-        name: "Essential Oils",
-        category: "Essential Oil",
-        price: 22,
-        rating: 4.9,
-        image: essentialOils,
+        name: "Rhassoul Clay",
+        category: "Natural Clay",
+        description:
+            "Natural Moroccan clay for skin and hair care treatments.",
+        image: rhassoulClay,
     },
     {
         id: 7,
-        name: "Vegetable Oils",
-        category: "Vegetable Oil",
-        price: 30,
-        rating: 5,
-        image: vegetableOils,
+        name: "Rose Water",
+        category: "Floral Water",
+        description:
+            "Refreshing natural rose water for face and body care.",
+        image: roseWater,
     },
     {
         id: 8,
-        name: "Cream",
-        category: "Cosmetics",
-        price: 28,
-        rating: 4.8,
-        image: cream,
-    },
-    {
-        id: 9,
         name: "Shampoo",
         category: "Hair Care",
-        price: 19,
-        rating: 4.9,
+        description:
+            "Gentle shampoo formulated with natural ingredients.",
         image: shampoo,
     },
     {
-        id: 10,
-        name: "Soap",
+        id: 9,
+        name: "Natural Soap",
         category: "Body Care",
-        price: 12,
-        rating: 4.7,
+        description:
+            "Handcrafted soap made from high-quality natural oils.",
         image: soap,
+    },
+    {
+        id: 10,
+        name: "Vegetable Oils",
+        category: "Vegetable Oils",
+        description:
+            "Premium vegetable oils for cosmetic and industrial use.",
+        image: vegetableOils,
     },
 ];
 

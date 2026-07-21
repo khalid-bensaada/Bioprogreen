@@ -4,7 +4,8 @@ import Footer from "../components/layout/Footer";
 
 function MainLayout() {
     return (
-        <>
+        <div className="overflow-x-hidden">
+
             <Navbar />
 
             <main className="min-h-screen">
@@ -12,7 +13,8 @@ function MainLayout() {
             </main>
 
             <Footer />
-        </>
+
+        </div>
     );
 }
 

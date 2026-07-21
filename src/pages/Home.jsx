@@ -6,6 +6,9 @@ import AboutSection from "../components/home/AboutSection";
 import PrivateLabel from "../components/home/PrivateLabel";
 import Statistics from "../components/home/Statistics";
 import Testimonials from "../components/home/Testimonials";
+import Newsletter from "../components/home/Newsletter";
+import Footer from "../components/layout/Footer";
+
 function Home() {
     return (
         <>
@@ -17,6 +20,8 @@ function Home() {
             <PrivateLabel />
             <Statistics />
             <Testimonials />
+            <Newsletter />
+            <Footer />
         </>
     );
 }
